@@ -7,10 +7,10 @@ o desenvolvimento Web com React.
 ## Stack
 - React.Js
 - CSS
-    - SASS
+- SASS
 
 ## Link
-
+Portfólio: https://portfolio-sepia-theta.vercel.app/
 
 ____________________________
 
