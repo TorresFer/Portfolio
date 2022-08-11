@@ -5,7 +5,7 @@ import {
   DiJsBadge,
   DiReact,
   DiNodejsSmall,
-  DiMysql,
+  DiMongodb,
 } from 'react-icons/di'
 
 import '../styles/components/stack.sass'
@@ -17,7 +17,7 @@ const stacks = [
   { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
   { id: "react", name: "React", icon: <DiReact /> },
   { id: "node", name: "Node.js", icon: <DiNodejsSmall /> },
-  { id: "mysql", name: "MySQL", icon: <DiMysql /> },
+  { id: "mongo", name: "Mongo", icon: <DiMongodb /> },
 ]
 
 const StackContainer = () => {
@@ -30,8 +30,8 @@ const StackContainer = () => {
             {stack.icon}
             <div className="stack-info">
               <h3>{stack.name}</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium error sunt libero itaque molestiae, dicta atque corporis ea quidem et asperiores fugit in, illum nihil ullam. Ex dolor eum quas!
+              <p >
+                
               </p>
             </div>
           </div>

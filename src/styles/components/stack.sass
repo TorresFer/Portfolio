@@ -1,13 +1,17 @@
 @use '../variables'
 @use '../mixins'
 
+
 .stacks-container
     margin-bottom: 1rem
-
+    
     .stacks-grid
         display: flex
         flex-wrap: wrap
         gap: 1.5rem
+
+        :hover
+            background: variables.$gradient
 
         .stack-card
             @include mixins.center
@@ -23,6 +27,7 @@
 
             svg
                 font-size: 6rem
+
 
         #html
             svg
@@ -49,6 +54,7 @@
             svg
                 color: #83CD29
                 
-        #mysql
+        #mongo
             svg
-                color: #00618A
+                color: #4DB33D
+        
